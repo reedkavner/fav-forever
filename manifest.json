@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fav Forever",
+  "description": "Bring 'favorite' stars back to Twitter.",
+  "icons": {"128": "icon-128.png" },
+  "version": "1.0",
+  "background": {
+        "persistent":true,
+        "page":"bg.html"
+    },
+  "content_scripts": [ 
+      {
+      "js": ["jquery.min.js", "stars.js"],
+      "matches": [ "*://*.twitter.com/*"
+      ]
+      } 
+   ],
+
+  "permissions": [
+    "tabs",
+    "*://www.twitter.com/*"
+  ]
+}
