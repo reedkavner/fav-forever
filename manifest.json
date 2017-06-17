@@ -4,7 +4,7 @@
   "name": "Fav Forever",
   "description": "Bring 'favorite' stars back to Twitter.",
   "icons": {"128": "icon-128.png" },
-  "version": "1.1",
+  "version": "1.2",
   "background": {
         "persistent":true,
         "page":"bg.html"
